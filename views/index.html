@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POS Calculator</title>
+</head>
+<body>
+    <h1>POS Calculator</h1>
+    <form id="posForm">
+        <input type="text" id="merchantName" placeholder="Merchant Name" required>
+        <input type="text" id="address" placeholder="Address" required>
+        <input type="number" id="amount" placeholder="Amount" required>
+        <button type="submit">Generate QR</button>
+    </form>
+    <img id="qrCode" src="" alt="QR Code" hidden>
+    <script src="app.js"></script>
+</body>
+</html>
